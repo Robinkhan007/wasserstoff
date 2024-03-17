@@ -1,0 +1,25 @@
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bar {
+  width: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bar span {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+}
